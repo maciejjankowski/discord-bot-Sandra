@@ -1,6 +1,6 @@
 var Discord = require('discord.io');
 var logger = require('winston');
-var auth = require('./auth.json');
+let auth = process.env.token;
 
 
 console.log("It actually worked");
