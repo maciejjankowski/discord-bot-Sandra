@@ -13,7 +13,7 @@ logger.level = 'debug';
 
 
 var bot = new Discord.Client({
-    token: auth.token,
+    token: token,
     autorun: true
 });
 bot.on('ready', function (evt) {
